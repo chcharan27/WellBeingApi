@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
-using CareConnect.Services.MentelHealthApi.Models;
+using WellBeing.Services.MentelHealthApi.Models;
 
-namespace CareConnect.Services.MentelHealthApi.Configurations
+namespace WellBeing.Services.MentelHealthApi.Configurations
 {
     public class AutoMapperConfig:Profile
     {

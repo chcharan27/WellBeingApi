@@ -1,4 +1,4 @@
-﻿namespace CareConnect.Services.AuthApi.models.Dto
+﻿namespace WellBeing.Services.AuthApi.models.Dto
 {
     public class ConsumerDto
     {

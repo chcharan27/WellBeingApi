@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity;
 
-namespace CareConnect.Services.AuthApi.models
+namespace WellBeing.Services.AuthApi.models
 {
     public class ApplicationUser : IdentityUser
     {

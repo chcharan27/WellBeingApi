@@ -1,4 +1,4 @@
-﻿namespace CareConnect.Services.AuthApi.models
+﻿namespace WellBeing.Services.AuthApi.models
 {
     public class JwtOptions
     {

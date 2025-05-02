@@ -1,6 +1,6 @@
-﻿using CareConnect.Services.AuthApi.models.Dto;
+﻿using WellBeing.Services.AuthApi.models.Dto;
 
-namespace CareConnect.Services.AuthApi.Service
+namespace WellBeing.Services.AuthApi.Service
 {
     public interface IConsumerService
     {

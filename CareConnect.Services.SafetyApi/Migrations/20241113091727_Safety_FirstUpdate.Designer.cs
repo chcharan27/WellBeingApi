@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace CareConnect.Services.SafetyApi.Migrations
+namespace WellBeing.Services.SafetyApi.Migrations
 {
     [DbContext(typeof(SafetyApiContext))]
     [Migration("20241113091727_Safety_FirstUpdate")]
@@ -24,7 +24,7 @@ namespace CareConnect.Services.SafetyApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CareConnect.Services.SafetyApi.Models.ReportIncident", b =>
+            modelBuilder.Entity("WellBeing.Services.SafetyApi.Models.ReportIncident", b =>
                 {
                     b.Property<DateOnly>("DateTimeOfEntry")
                         .HasColumnType("date")

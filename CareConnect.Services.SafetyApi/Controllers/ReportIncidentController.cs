@@ -1,14 +1,14 @@
-﻿using CareConnect.Services.SafetyApi.Models;
-using CareConnect.Services.SafetyApi.Services.IService;
-//using CareConnect.Services.WellBeingApi.Models;
-//using CareConnect.Services.WellBeingApi.Services;
-//using CareConnect.Services.WellBeingApi.Services.IService;
+﻿using WellBeing.Services.SafetyApi.Models;
+using WellBeing.Services.SafetyApi.Services.IService;
+//using WellBeing.Services.WellBeingApi.Models;
+//using WellBeing.Services.WellBeingApi.Services;
+//using WellBeing.Services.WellBeingApi.Services.IService;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
 
-namespace CareConnect.Services.SafetyApi.Controllers
+namespace WellBeing.Services.SafetyApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,5 +1,5 @@
 
-namespace CareConnect.GateWay.OcilateGateWay
+namespace WellBeing.GateWay.OcilateGateWay
 {
     public class Program
     {

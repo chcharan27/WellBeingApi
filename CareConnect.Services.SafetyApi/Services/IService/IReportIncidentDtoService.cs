@@ -1,7 +1,7 @@
-﻿using CareConnect.Services.SafetyApi.Models;
+﻿using WellBeing.Services.SafetyApi.Models;
 using System;
 
-namespace CareConnect.Services.SafetyApi.Services.IService
+namespace WellBeing.Services.SafetyApi.Services.IService
 {
     public interface IReportIncidentDtoService
     {

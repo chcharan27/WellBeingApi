@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace CareConnect.Services.SafetyApi.Models
+namespace WellBeing.Services.SafetyApi.Models
 {
     public class ReportIncidentDto
     {

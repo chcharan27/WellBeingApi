@@ -1,9 +1,9 @@
-﻿using CareConnect.Services.SafetyApi.Models;
-//using CareConnect.Services.WellBeingApi.Models;
+﻿using WellBeing.Services.SafetyApi.Models;
+//using WellBeing.Services.WellBeingApi.Models;
 using System;
 using System.Collections.Generic;
 
-namespace CareConnect.Services.SafetyApi.Services.IService
+namespace WellBeing.Services.SafetyApi.Services.IService
 {
     public interface IReportIncidentService
     {

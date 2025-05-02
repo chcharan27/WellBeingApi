@@ -1,6 +1,6 @@
-@CareConnect.Services.AuthApi_HostAddress = http://localhost:5057
+@WellBeing.Services.AuthApi_HostAddress = http://localhost:5057
 
-GET {{CareConnect.Services.AuthApi_HostAddress}}/weatherforecast/
+GET {{WellBeing.Services.AuthApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

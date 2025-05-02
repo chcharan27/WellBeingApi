@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Reflection.Emit;
 using System;
-using CareConnect.Services.AuthApi.models;
+using WellBeing.Services.AuthApi.models;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
-namespace CareConnect.Services.AuthApi.Data
+namespace WellBeing.Services.AuthApi.Data
 {
     public class AppDbContext:IdentityDbContext<ApplicationUser>
     {

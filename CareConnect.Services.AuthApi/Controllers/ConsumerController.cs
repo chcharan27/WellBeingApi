@@ -1,9 +1,9 @@
-﻿using CareConnect.Services.AuthApi.models;
+﻿using WellBeing.Services.AuthApi.models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CareConnect.Services.AuthApi.Controllers
+namespace WellBeing.Services.AuthApi.Controllers
 {
     [Route("api/consumer")]
     [ApiController]

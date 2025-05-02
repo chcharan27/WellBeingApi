@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
-using CareConnect.Services.MentelHealthApi.Models;
+using WellBeing.Services.MentelHealthApi.Models;
 
     public class MentelHealthApiContext : DbContext
     {
@@ -14,5 +14,5 @@ using CareConnect.Services.MentelHealthApi.Models;
 
         public DbSet<MoodTracker> MoodTrackers { get; set; } = default!;
 
-public DbSet<CareConnect.Services.MentelHealthApi.Models.Doctor> Doctor { get; set; } = default!;
+public DbSet<WellBeing.Services.MentelHealthApi.Models.Doctor> Doctor { get; set; } = default!;
     }

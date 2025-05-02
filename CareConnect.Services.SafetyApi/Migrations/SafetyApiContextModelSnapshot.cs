@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace CareConnect.Services.SafetyApi.Migrations
+namespace WellBeing.Services.SafetyApi.Migrations
 {
     [DbContext(typeof(SafetyApiContext))]
     partial class SafetyApiContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace CareConnect.Services.SafetyApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CareConnect.Services.SafetyApi.Models.ReportIncident", b =>
+            modelBuilder.Entity("WellBeing.Services.SafetyApi.Models.ReportIncident", b =>
                 {
                     b.Property<int>("IncidentId")
                         .ValueGeneratedOnAdd()

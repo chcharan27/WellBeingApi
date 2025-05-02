@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace CareConnect.Services.MentelHealthApi.Migrations
+namespace WellBeing.Services.MentelHealthApi.Migrations
 {
     [DbContext(typeof(MentelHealthApiContext))]
     partial class MentelHealthApiContextModelSnapshot : ModelSnapshot
@@ -21,7 +21,7 @@ namespace CareConnect.Services.MentelHealthApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CareConnect.Services.MentelHealthApi.Models.Doctor", b =>
+            modelBuilder.Entity("WellBeing.Services.MentelHealthApi.Models.Doctor", b =>
                 {
                     b.Property<int>("DoctorId")
                         .ValueGeneratedOnAdd()
@@ -47,7 +47,7 @@ namespace CareConnect.Services.MentelHealthApi.Migrations
                     b.ToTable("Doctor");
                 });
 
-            modelBuilder.Entity("CareConnect.Services.MentelHealthApi.Models.MoodTracker", b =>
+            modelBuilder.Entity("WellBeing.Services.MentelHealthApi.Models.MoodTracker", b =>
                 {
                     b.Property<int>("EntryId")
                         .ValueGeneratedOnAdd()

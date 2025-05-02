@@ -1,10 +1,10 @@
-﻿using CareConnect.Services.MentelHealthApi.Configurations;
-using CareConnect.Services.MentelHealthApi.Services;
-using CareConnect.Services.MentelHealthApi.Services.IService;
+﻿using WellBeing.Services.MentelHealthApi.Configurations;
+using WellBeing.Services.MentelHealthApi.Services;
+using WellBeing.Services.MentelHealthApi.Services.IService;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace CareConnect.Services.MentelHealthApi
+namespace WellBeing.Services.MentelHealthApi
 {
     public class Program
     {

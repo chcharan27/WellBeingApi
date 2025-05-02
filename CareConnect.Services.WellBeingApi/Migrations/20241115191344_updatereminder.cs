@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace CareConnect.Services.WellBeingApi.Migrations
+namespace WellBeing.Services.WellBeingApi.Migrations
 {
     /// <inheritdoc />
     public partial class updatereminder : Migration

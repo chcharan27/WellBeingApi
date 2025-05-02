@@ -1,6 +1,6 @@
-﻿using CareConnect.Services.WellBeingApi.Models;
+﻿using WellBeing.Services.WellBeingApi.Models;
 
-namespace CareConnect.Services.WellBeingApi.Services.IService
+namespace WellBeing.Services.WellBeingApi.Services.IService
 {
     public interface IReminderSchedulerDtoService
     {

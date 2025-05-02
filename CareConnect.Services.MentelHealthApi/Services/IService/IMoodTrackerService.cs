@@ -1,6 +1,6 @@
-﻿using CareConnect.Services.MentelHealthApi.Models;
+﻿using WellBeing.Services.MentelHealthApi.Models;
 
-namespace CareConnect.Services.MentelHealthApi.Services.IService
+namespace WellBeing.Services.MentelHealthApi.Services.IService
 {
     public interface IMoodTrackerService
     {

@@ -1,8 +1,8 @@
-﻿using CareConnect.Services.MentelHealthApi.Models;
-using CareConnect.Services.MentelHealthApi.Services.IService;
+﻿using WellBeing.Services.MentelHealthApi.Models;
+using WellBeing.Services.MentelHealthApi.Services.IService;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace CareConnect.Services.MentelHealthApi.Services
+namespace WellBeing.Services.MentelHealthApi.Services
 {
     public class MoodTrackerService : IMoodTrackerService
     {

@@ -1,6 +1,6 @@
-﻿using CareConnect.Services.AuthApi.models;
+﻿using WellBeing.Services.AuthApi.models;
 
-namespace CareConnect.Services.AuthApi.Service
+namespace WellBeing.Services.AuthApi.Service
 {
     public interface IJwtTokenGenerator
     {

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace CareConnect.Services.MentelHealthApi.Migrations
+namespace WellBeing.Services.MentelHealthApi.Migrations
 {
     /// <inheritdoc />
     public partial class init1 : Migration

@@ -1,12 +1,12 @@
-﻿using CareConnect.Services.SafetyApi.Models;
-using CareConnect.Services.SafetyApi.Services.IService;
+﻿using WellBeing.Services.SafetyApi.Models;
+using WellBeing.Services.SafetyApi.Services.IService;
 using Microsoft.EntityFrameworkCore;
 
-//using CareConnect.Services.WellBeingApi.Models;
-//using CareConnect.Services.WellBeingApi.Services.IService;
+//using WellBeing.Services.WellBeingApi.Models;
+//using WellBeing.Services.WellBeingApi.Services.IService;
 using System.Collections.Generic;
 
-namespace CareConnect.Services.SafetyApi.Services
+namespace WellBeing.Services.SafetyApi.Services
 {
     public class ReportIncidentService : IReportIncidentService
     {

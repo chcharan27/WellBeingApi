@@ -2,7 +2,7 @@
 
 #nullable disable
 
-namespace CareConnect.Services.AuthApi.Migrations
+namespace WellBeing.Services.AuthApi.Migrations
 {
     /// <inheritdoc />
     public partial class init1 : Migration

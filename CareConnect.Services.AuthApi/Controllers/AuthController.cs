@@ -1,10 +1,10 @@
-﻿using CareConnect.Services.AuthApi.models.Dto;
-using CareConnect.Services.AuthApi.Service;
-using CareConnect.Services.AuthApi.Data;  // ADD THIS
+﻿using WellBeing.Services.AuthApi.models.Dto;
+using WellBeing.Services.AuthApi.Service;
+using WellBeing.Services.AuthApi.Data;  // ADD THIS
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CareConnect.Services.AuthApi.Controllers
+namespace WellBeing.Services.AuthApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
@@ -74,12 +74,12 @@ namespace CareConnect.Services.AuthApi.Controllers
         }
     }
 }
-//using CareConnect.Services.AuthApi.models.Dto;
-//using CareConnect.Services.AuthApi.Service;
+//using WellBeing.Services.AuthApi.models.Dto;
+//using WellBeing.Services.AuthApi.Service;
 //using Microsoft.AspNetCore.Http;
 //using Microsoft.AspNetCore.Mvc;
 
-//namespace CareConnect.Services.AuthApi.Controllers
+//namespace WellBeing.Services.AuthApi.Controllers
 //{
 //    [Route("api/[controller]")]
 //    [ApiController]

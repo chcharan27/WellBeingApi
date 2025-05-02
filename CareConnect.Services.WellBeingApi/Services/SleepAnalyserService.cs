@@ -1,9 +1,9 @@
-﻿using CareConnect.Services.WellBeingApi.Models;
-using CareConnect.Services.WellBeingApi.Services.IService;
+﻿using WellBeing.Services.WellBeingApi.Models;
+using WellBeing.Services.WellBeingApi.Services.IService;
 using System.Collections.Generic;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-namespace CareConnect.Services.WellBeingApi.Services
+namespace WellBeing.Services.WellBeingApi.Services
 {
     public class SleepAnalyserService : ISleepAnalyserService
     {

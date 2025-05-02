@@ -1,5 +1,5 @@
-﻿using CareConnect.Services.AuthApi.models;
-//using CareConnect.Services.AuthApi.Service.IAuthService;
+﻿using WellBeing.Services.AuthApi.models;
+//using WellBeing.Services.AuthApi.Service.IAuthService;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
@@ -7,7 +7,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace CareConnect.Services.AuthApi.Service
+namespace WellBeing.Services.AuthApi.Service
 {
     public class JwtTokenGenerator : IJwtTokenGenerator
 

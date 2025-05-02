@@ -1,10 +1,10 @@
 
-using CareConnect.Services.MentelHealthApi.Configurations;
-using CareConnect.Services.SafetyApi.Services;
-using CareConnect.Services.SafetyApi.Services.IService;
+using WellBeing.Services.MentelHealthApi.Configurations;
+using WellBeing.Services.SafetyApi.Services;
+using WellBeing.Services.SafetyApi.Services.IService;
 using Microsoft.EntityFrameworkCore;
 
-namespace CareConnect.Services.SafetyApi
+namespace WellBeing.Services.SafetyApi
 {
     public class Program
     {

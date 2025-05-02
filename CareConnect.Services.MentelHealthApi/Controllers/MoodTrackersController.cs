@@ -5,11 +5,11 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CareConnect.Services.MentelHealthApi.Models;
+using WellBeing.Services.MentelHealthApi.Models;
 using AutoMapper;
-using CareConnect.Services.MentelHealthApi.Services.IService;
+using WellBeing.Services.MentelHealthApi.Services.IService;
 
-namespace CareConnect.Services.MentelHealthApi.Controllers
+namespace WellBeing.Services.MentelHealthApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

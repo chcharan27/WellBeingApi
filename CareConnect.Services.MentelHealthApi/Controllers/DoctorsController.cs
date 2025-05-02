@@ -5,12 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using CareConnect.Services.MentelHealthApi.Models;
-using CareConnect.Services.MentelHealthApi.Services.IService;
+using WellBeing.Services.MentelHealthApi.Models;
+using WellBeing.Services.MentelHealthApi.Services.IService;
 using System.Reflection.Metadata.Ecma335;
 using Microsoft.AspNetCore.Authorization;
 
-namespace CareConnect.Services.MentelHealthApi.Controllers
+namespace WellBeing.Services.MentelHealthApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]

@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using CareConnect.Services.SafetyApi.Models;
-using CareConnect.Services.SafetyApi.Services.IService;
+using WellBeing.Services.SafetyApi.Models;
+using WellBeing.Services.SafetyApi.Services.IService;
 using Microsoft.EntityFrameworkCore;
 
 
-namespace CareConnect.Services.SafetyApi.Services
+namespace WellBeing.Services.SafetyApi.Services
 {
     
         public class ReportIncidentDtoService : IReportIncidentDtoService

@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-//using CareConnect.Services.WellBeingApi.Data;
-using CareConnect.Services.WellBeingApi.Models;
-using CareConnect.Services.WellBeingApi.Services.IService;
+//using WellBeing.Services.WellBeingApi.Data;
+using WellBeing.Services.WellBeingApi.Models;
+using WellBeing.Services.WellBeingApi.Services.IService;
 
-namespace CareConnect.Services.WellBeingApi.Services
+namespace WellBeing.Services.WellBeingApi.Services
 {
     public class ReminderSchedulerDtoService : IReminderSchedulerDtoService
     {

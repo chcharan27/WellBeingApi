@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace CareConnect.Services.WellBeingApi.Migrations
+namespace WellBeing.Services.WellBeingApi.Migrations
 {
     [DbContext(typeof(WellBeingApiContext))]
     [Migration("20241112035633_WellBeing_contextnamechangd")]
@@ -24,7 +24,7 @@ namespace CareConnect.Services.WellBeingApi.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("CareConnect.Services.WellBeingApi.Models.ReminderScheduler", b =>
+            modelBuilder.Entity("WellBeing.Services.WellBeingApi.Models.ReminderScheduler", b =>
                 {
                     b.Property<DateOnly>("DateTimeOfEntry")
                         .HasColumnType("date")
@@ -46,7 +46,7 @@ namespace CareConnect.Services.WellBeingApi.Migrations
                     b.ToTable("ReminderScheduler");
                 });
 
-            modelBuilder.Entity("CareConnect.Services.WellBeingApi.Models.SleepAnalyser", b =>
+            modelBuilder.Entity("WellBeing.Services.WellBeingApi.Models.SleepAnalyser", b =>
                 {
                     b.Property<DateOnly>("DateTimeOfEntry")
                         .HasColumnType("date")

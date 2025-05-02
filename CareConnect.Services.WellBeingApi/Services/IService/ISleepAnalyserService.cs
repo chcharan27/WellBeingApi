@@ -1,8 +1,8 @@
-﻿using CareConnect.Services.WellBeingApi.Models;
+﻿using WellBeing.Services.WellBeingApi.Models;
 using System;
 using System.Collections.Generic;
 
-namespace CareConnect.Services.WellBeingApi.Services.IService
+namespace WellBeing.Services.WellBeingApi.Services.IService
 {
     public interface ISleepAnalyserService
     {

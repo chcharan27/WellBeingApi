@@ -7,15 +7,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "GateWay", "GateWay", "{E815
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{AF61533E-2987-4ED0-A678-C47DAA45E029}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareConnect.Services.AuthApi", "CareConnect.Services.AuthApi\CareConnect.Services.AuthApi.csproj", "{27A5A088-8019-4B3A-9104-4DE81AD78599}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellBeing.Services.AuthApi", "CareConnect.Services.AuthApi\WellBeing.Services.AuthApi.csproj", "{27A5A088-8019-4B3A-9104-4DE81AD78599}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareConnect.GateWay.OcilateGateWay", "CareConnect.GateWay.OcilateGateWay\CareConnect.GateWay.OcilateGateWay.csproj", "{AB7D3624-6C7D-452F-8962-BC357D49C7CA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellBeing.GateWay.OcilateGateWay", "CareConnect.GateWay.OcilateGateWay\WellBeing.GateWay.OcilateGateWay.csproj", "{AB7D3624-6C7D-452F-8962-BC357D49C7CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareConnect.Services.SafetyApi", "CareConnect.Services.SafetyApi\CareConnect.Services.SafetyApi.csproj", "{95964B57-5300-4C53-8E56-557BFAE2679F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellBeing.Services.SafetyApi", "CareConnect.Services.SafetyApi\WellBeing.Services.SafetyApi.csproj", "{95964B57-5300-4C53-8E56-557BFAE2679F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareConnect.Services.MentelHealthApi", "CareConnect.Services.MentelHealthApi\CareConnect.Services.MentelHealthApi.csproj", "{33FFBF71-9B9C-470D-8632-1AF502E4C1FC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellBeing.Services.MentelHealthApi", "CareConnect.Services.MentelHealthApi\WellBeing.Services.MentelHealthApi.csproj", "{33FFBF71-9B9C-470D-8632-1AF502E4C1FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CareConnect.Services.WellBeingApi", "CareConnect.Services.WellBeingApi\CareConnect.Services.WellBeingApi.csproj", "{15750D08-BB5B-4146-A790-6D136D44B506}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WellBeing.Services.WellBeingApi", "CareConnect.Services.WellBeingApi\WellBeing.Services.WellBeingApi.csproj", "{15750D08-BB5B-4146-A790-6D136D44B506}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

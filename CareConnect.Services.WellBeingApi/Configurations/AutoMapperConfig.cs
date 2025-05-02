@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using CareConnect.Services.WellBeingApi.Models;
+using WellBeing.Services.WellBeingApi.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CareConnect.Services.MentelHealthApi.Configurations
+namespace WellBeing.Services.MentelHealthApi.Configurations
 {
     public class AutoMapperConfig : Profile
     {

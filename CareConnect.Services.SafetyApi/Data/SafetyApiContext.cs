@@ -1,6 +1,6 @@
 ﻿
 
-using CareConnect.Services.SafetyApi.Models;
+using WellBeing.Services.SafetyApi.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class SafetyApiContext : DbContext

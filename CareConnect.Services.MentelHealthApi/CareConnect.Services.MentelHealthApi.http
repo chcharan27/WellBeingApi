@@ -1,6 +1,6 @@
-@CareConnect.Services.MentelHealthApi_HostAddress = http://localhost:5203
+@WellBeing.Services.MentelHealthApi_HostAddress = http://localhost:5203
 
-GET {{CareConnect.Services.MentelHealthApi_HostAddress}}/weatherforecast/
+GET {{WellBeing.Services.MentelHealthApi_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###

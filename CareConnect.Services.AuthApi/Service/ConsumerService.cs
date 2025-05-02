@@ -1,8 +1,8 @@
-﻿using CareConnect.Services.AuthApi.Data;
-using CareConnect.Services.AuthApi.models.Dto;
+﻿using WellBeing.Services.AuthApi.Data;
+using WellBeing.Services.AuthApi.models.Dto;
 using Microsoft.EntityFrameworkCore;
 
-namespace CareConnect.Services.AuthApi.Service
+namespace WellBeing.Services.AuthApi.Service
 {
     public class ConsumerService : IConsumerService
 

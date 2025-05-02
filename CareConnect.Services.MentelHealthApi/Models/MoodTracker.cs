@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace CareConnect.Services.MentelHealthApi.Models
+namespace WellBeing.Services.MentelHealthApi.Models
 {
     public class MoodTracker
     {

@@ -1,11 +1,11 @@
-﻿using CareConnect.Services.AuthApi.Data;
-using CareConnect.Services.AuthApi.models.Dto;
-using CareConnect.Services.AuthApi.models;
+﻿using WellBeing.Services.AuthApi.Data;
+using WellBeing.Services.AuthApi.models.Dto;
+using WellBeing.Services.AuthApi.models;
 
 using Microsoft.AspNetCore.Identity;
 
 
-namespace CareConnect.Services.AuthApi.Service
+namespace WellBeing.Services.AuthApi.Service
 {
     public class AuthService :IAuthService
 

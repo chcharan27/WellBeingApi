@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CareConnect.Services.MentelHealthApi.Models
+namespace WellBeing.Services.MentelHealthApi.Models
 {
     public class Doctor
     {

@@ -1,9 +1,9 @@
 ﻿using AutoMapper;
-using CareConnect.Services.MentelHealthApi.Models;
-using CareConnect.Services.MentelHealthApi.Services.IService;
+using WellBeing.Services.MentelHealthApi.Models;
+using WellBeing.Services.MentelHealthApi.Services.IService;
 using System.Collections.Generic;
 
-namespace CareConnect.Services.MentelHealthApi.Services
+namespace WellBeing.Services.MentelHealthApi.Services
 {
     public class MoodTrackerDtoService : IMoodTrackerDtoService
     {

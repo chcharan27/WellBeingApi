@@ -1,6 +1,6 @@
 ﻿
 
-using CareConnect.Services.WellBeingApi.Models;
+using WellBeing.Services.WellBeingApi.Models;
 using Microsoft.EntityFrameworkCore;
 
 public class WellBeingApiContext : DbContext

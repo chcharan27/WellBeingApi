@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace CareConnect.Services.WellBeingApi.Models
+namespace WellBeing.Services.WellBeingApi.Models
 {
     public class ReminderScheduler
     {
